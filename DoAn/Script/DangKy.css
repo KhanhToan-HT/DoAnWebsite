@@ -1,0 +1,287 @@
+@charset "utf-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*Header*/
+
+header {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #1285d1;
+    width: 100%;
+    position: fixed;
+    height: 60px;
+}
+
+div#dn {
+    margin-left: 900px;
+}
+
+div#dn a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    vertical-align: 7px;
+}
+
+div#dn>img {
+    padding-top: 15px;
+    height: 30px;
+}
+
+header div#dn a:hover {
+    color: red;
+}
+
+div#dt {
+    float: left;
+    margin-left: 74px;
+}
+
+div#dt a img#logo {
+    height: 60px;
+    width: 60px;
+    vertical-align: middle;
+}
+
+div#dt a {
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    font-size: 17px;
+}
+
+div#dt a:hover {
+    color: red;
+}
+
+div#dt>img {
+    height: 30px;
+    vertical-align: middle;
+}
+
+
+/*Nav*/
+
+nav {
+    clear: both;
+    background-color: #333;
+    height: 44px;
+    position: sticky;
+    top: 75px;
+    font-style: normal;
+}
+
+nav div#subnav {
+    width: 1300px;
+}
+
+nav ul {
+    float: left;
+    list-style-type: none;
+    margin-left: 75px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+nav div#subnav>div {
+    float: right;
+    background-color: white;
+    padding-left: 10px;
+    margin-top: 4px;
+    margin-right: 25px;
+    height: 34px;
+    width: 380px;
+    border: 0.5px solid #CED2DD;
+    border-radius: 5px;
+}
+
+nav div#subnav>div input[type=text] {
+    float: left;
+    height: 29px;
+    width: 270px;
+    font-size: 14px;
+    border: none;
+}
+
+nav div#subnav>div input[type=submit] {
+    float: right;
+    height: 100%;
+    width: 100px;
+    background: #F7F2E7;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 0.5px solid #CED2DD;
+    font-size: 14px;
+}
+
+nav div#subnav>div input[type=submit]:hover {
+    cursor: pointer;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+/*menu dropdown là khó nhất để thêm dính lun phần kia*/
+
+.subnav-menu {
+    position: absolute;
+    display: none;
+    background-color: #333;
+    min-width: 250px;
+    margin-left: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    clear: both;
+}
+
+#subnav li {
+    position: relative;
+    display: inline-block;
+}
+
+#subnav li:hover .subnav-menu {
+    display: block;
+}
+
+.subnav-menu li {
+    margin-left: 0px;
+    width: 100%;
+}
+
+div#body {
+    width: 1200px;
+    margin: 0px auto;
+    background-color: rgb(250, 249, 249);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+article {
+    display: table-row;
+}
+
+section {
+    display: table-cell;
+    width: 1200px;
+}
+
+div#DangKyTK {
+    padding-top: 90px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div#DangKyTK legend {
+    margin-left: 20px;
+}
+
+div#DangKyTK table {
+    padding-top: 10px;
+    margin-left: 20px;
+    line-height: 2;
+}
+
+section p {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    line-height: 2;
+}
+
+footer {
+    padding-top: 20px;
+    background-color: #1285d1;
+    height: 170px;
+}
+
+div#leftCT {
+    float: left;
+    margin-left: 100px;
+    line-height: 1.8;
+    text-decoration: none;
+}
+
+div#leftCT p a {
+    text-decoration: none;
+    color: #111;
+}
+
+div#leftCT p a:hover {
+    color: #333;
+}
+
+div#centerCT {
+    float: left;
+    line-height: 1.8;
+    margin-left: 200px;
+}
+
+div#centerCT ul {
+    list-style-type: none;
+}
+
+div#centerCT P {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+div#centerCT ul li a {
+    text-decoration: none;
+    color: #111;
+}
+
+div#centerCT ul li a:hover {
+    color: #333;
+}
+
+div#rightCT {
+    line-height: 1.8;
+    float: right;
+    margin-right: 150px;
+}
+
+div#rightCT P {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+div#rightCT ul {
+    list-style-type: none;
+}
+
+div#rightCT ul li a {
+    text-decoration: none;
+    color: #111;
+}
+
+div#rightCT ul li a:hover {
+    color: #333;
+}

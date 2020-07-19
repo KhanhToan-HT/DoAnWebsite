@@ -1,0 +1,392 @@
+@charset "utf-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*Header*/
+
+header {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #1285d1;
+    width: 100%;
+    position: fixed;
+    height: 60px;
+}
+
+div#dn {
+    margin-left: 900px;
+}
+
+div#dn a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    vertical-align: 7px;
+}
+
+div#dn>img {
+    padding-top: 15px;
+    height: 30px;
+}
+
+header div#dn a:hover {
+    color: red;
+}
+
+div#dt {
+    float: left;
+    margin-left: 74px;
+}
+
+div#dt a img#logo {
+    height: 60px;
+    width: 60px;
+    vertical-align: middle;
+}
+
+div#dt a {
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    font-size: 17px;
+}
+
+div#dt a:hover {
+    color: red;
+}
+
+div#dt>img {
+    height: 30px;
+    vertical-align: middle;
+}
+
+
+/*Nav*/
+
+nav {
+    clear: both;
+    background-color: #333;
+    height: 44px;
+    position: sticky;
+    top: 75px;
+    font-style: normal;
+}
+
+nav div#subnav {
+    width: 1300px;
+}
+
+nav ul {
+    float: left;
+    list-style-type: none;
+    margin-left: 75px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li:last-child {
+    border-right: none;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+nav div#subnav>div {
+    float: right;
+    background-color: white;
+    padding-left: 10px;
+    margin-top: 4px;
+    margin-right: 25px;
+    height: 34px;
+    width: 380px;
+    border: 0.5px solid #CED2DD;
+    border-radius: 5px;
+}
+
+nav div#subnav>div input[type=text] {
+    float: left;
+    height: 29px;
+    width: 270px;
+    font-size: 14px;
+    border: none;
+}
+
+nav div#subnav>div input[type=submit] {
+    float: right;
+    height: 100%;
+    width: 100px;
+    background: #F7F2E7;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 0.5px solid #CED2DD;
+    font-size: 14px;
+}
+
+nav div#subnav>div input[type=submit]:hover {
+    cursor: pointer;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+/*menu dropdown là khó nhất để thêm dính lun phần kia*/
+
+.subnav-menu {
+    position: absolute;
+    display: none;
+    background-color: #333;
+    min-width: 250px;
+    margin-left: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    clear: both;
+}
+
+#subnav li {
+    position: relative;
+    display: inline-block;
+}
+
+#subnav li:hover .subnav-menu {
+    display: block;
+}
+
+.subnav-menu li {
+    margin-left: 0px;
+    width: 100%;
+}
+
+
+/*phần thân web*/
+
+div#body {
+    width: 1200px;
+    margin: 0px auto;
+    background-color: rgb(250, 249, 249);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+article {
+    display: table-row;
+}
+
+section {
+    display: table-cell;
+    width: 1200px;
+    padding-bottom: 10px;
+    padding-top: 70px;
+}
+
+section>p {
+    margin-left: 30px;
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    height: 45px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+section>h3 img {
+    height: 50px;
+    width: 50px;
+    vertical-align: -15px;
+}
+
+section>h3 {
+    padding-top: 10px;
+    color: #333;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 5px;
+    margin-left: 30px;
+}
+
+.TM {
+    margin: 3px;
+    margin-left: 5px;
+    width: 389px;
+    height: 560px;
+    border-radius: 5px;
+    border: 0.5px dashed #a5b4c4;
+    float: left;
+}
+
+.TM p {
+    margin-left: 25px;
+    margin-right: 15px;
+    padding: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.hinhTM {
+    width: 320px;
+    height: 300px;
+    margin-left: 35px;
+}
+
+.TM strong {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.giaTM {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #fff;
+    background: #23c4bb;
+    border-radius: 10px;
+    margin: 5px 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.giaTM:hover {
+    background-color: #1285d1;
+}
+
+section>ul {
+    padding-top: 20px;
+    float: left;
+    margin-left: 45px;
+    font-size: 21px;
+    width: 65%;
+}
+
+section>ul li {
+    list-style: decimal;
+    line-height: 1.8;
+    clear: both;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section>ul h3 img {
+    height: 50px;
+    width: 50px;
+    vertical-align: -15px;
+}
+
+section>ul>h3 {
+    color: #333;
+    font-weight: bold;
+    font-size: 34px;
+    margin-left: -30px;
+    padding-bottom: 5px;
+}
+
+section>img {
+    float: right;
+    height: 400px;
+    width: 340px;
+    margin-right: 20px;
+}
+
+div#km img {
+    display: inline-block;
+    padding-top: 30px;
+    margin-left: 200px;
+    height: 600px;
+    width: 800px;
+}
+
+div#mau {
+    display: inline-block;
+    padding-top: 30px;
+    margin-left: 200px;
+}
+
+footer {
+    padding-top: 20px;
+    background-color: #1285d1;
+    height: 170px;
+}
+
+div#leftCT {
+    float: left;
+    margin-left: 100px;
+    line-height: 1.8;
+    text-decoration: none;
+}
+
+div#leftCT p a {
+    text-decoration: none;
+    color: #111;
+}
+
+div#leftCT p a:hover {
+    color: #333;
+}
+
+div#centerCT {
+    float: left;
+    line-height: 1.8;
+    margin-left: 200px;
+}
+
+div#centerCT ul {
+    list-style-type: none;
+}
+
+div#centerCT P {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+div#centerCT ul li a {
+    text-decoration: none;
+    color: #111;
+}
+
+div#centerCT ul li a:hover {
+    color: #333;
+}
+
+div#rightCT {
+    line-height: 1.8;
+    float: right;
+    margin-right: 150px;
+}
+
+div#rightCT P {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+div#rightCT ul {
+    list-style-type: none;
+}
+
+div#rightCT ul li a {
+    text-decoration: none;
+    color: #111;
+}
+
+div#rightCT ul li a:hover {
+    color: #333;
+}

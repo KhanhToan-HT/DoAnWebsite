@@ -1,0 +1,401 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>TECHNO</title>
+    <link rel="SHORTCUT ICON" href="./Image/LOGOTN.JPG">
+    <link rel="stylesheet" type="text/css" href="./Script/TrangChu.css">
+    <style>
+        /* Slideshow container */
+        
+        .slideshow-container {
+            padding-top: 75px;
+            max-width: 800px;
+            margin: auto;
+        }
+        /* Ẩn các slider */
+        
+        .mySlides {
+            display: none;
+        }
+        /* định dạng các chấm chuyển đổi các slide */
+        
+        .dot {
+            cursor: pointer;
+            height: 13px;
+            width: 13px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        /* khi được hover, active đổi màu nền */
+        
+        .dot:hover {
+            background-color: #717171;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="dt">
+            <a href="TrangChu.html"><img id="logo" src="./Image/LOGOTN.jpg"></a> &ensp;&ensp; &ensp;
+            <img src="./Image/DT.jpg">
+            <a href="tel:0389842453">0389 842 453 &ensp;&nbsp;</a>
+            <img src="./Image/Message.jpg">
+            <a href="mailto:techno@gmail.com.vn">Email: techno@gmail.com.vn</a>
+        </div>
+        <div id="dn">
+            <img src="./Image/dangnhap.jpg">
+            <a href="Dangnhap.html">Đăng nhập</a> &ensp;
+            <a href="Dangky.html">Đăng ký</a>&ensp;&nbsp;
+            <img src="./Image/Giohang.gif">
+            <a href="#">Giỏ hàng (Trống)</a>
+        </div>
+    </header>
+    <nav>
+        <div id="subnav">
+            <ul>
+                <li><a class="active" href="TrangChu.html">TRANG CHỦ</a> </li>
+                <li><a href="ThueMay.html">CHO THUÊ MÁY PHOTOCOPY</a></li>
+                <li><a>DANH MỤC MÁY PHOTOCOPY</a>
+                    <ul class="subnav-menu">
+                        <li><a href="VanPhong.html">MÁY PHOTOCOPY VĂN PHÒNG</a></li>
+                        <li><a href="DichVu.html">MÁY PHOTOCOPY DỊCH VỤ</a></li>
+                        <li><a href="Mini.html">MÁY PHOTOCOPY MINI</a></li>
+                    </ul>
+                </li>
+                <li><a href="GioiThieu.html">GIỚI THIỆU</a></li>
+            </ul>
+            <div>
+                <input type="text" size="36" name="tsearch" placeholder="Hãy nhập tên sản phẩm cần tìm ...">
+                <input type="submit" value="Tìm Sản Phầm" title="Tìm Sản Phầm">
+            </div>
+        </div>
+    </nav>
+    <div id="body">
+        <div>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="./Image/chayhinh/photocopybanner.png" style="width:100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./Image/Images/Thue May/cho-thue-may-photocopy-ricoh.jpg" style="width:100%; height: 366px;">
+                </div>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+            </div>
+        </div>
+        <article>
+            <section>
+                <p id="chinh">Máy Photocopy Văn Phòng</p>
+                <aside id="MPVanPhong">
+                    <div class="VP">
+                        <br>
+                        <a href="#"><img class="hinhVP" src="./Image/Images/Van Phong/3018a.png"></a>
+                        <p class="tenmayVP"><a href="#">TOSHIBA E-STUDIO 3018A</a></p>
+                        <p class="TDVP">Tốc độ <span class="NVP">30 trang/phút</span> | Nặng <span class="NVP">56,8 kg</span></p>
+                        <p><span class="giaVP">66,800,000 VNĐ</span></p>
+                        <a href="#"><img class="muaVP" src="./Image/Chonmua.png"></a>
+                    </div>
+                    <div class="VP">
+                        <br>
+                        <a href="#"><img class="hinhVP" src="./Image/Images/Van Phong/e2518.png"></a>
+                        <p class="tenmayVP"><a href="#">TOSHIBA E-STUDIO 2518A</a></p>
+                        <p class="TDVP">Tốc độ <span class="NVP">25 trang/phút</span> | Nặng <span class="NVP">56,8 kg</span></p>
+                        <p><span class="giaVP">59,800,000 VNĐ</span></p>
+                        <a href="#"><img class="muaVP" src="./Image/Chonmua.png"></a>
+                    </div>
+                    <div class="VP">
+                        <br>
+                        <a href="#"><img class="hinhVP" src="./Image/Images/Van Phong/e4055sp.png"></a>
+                        <p class="tenmayVP"><a href="#">RICOH AFICIO MP 4055SP</a></p>
+                        <p class="TDVP">Tốc độ <span class="NVP">40 trang/phút</span> | Nặng <span class="NVP">62,5 kg</span></p>
+                        <p><span class="giaVP">125,000,000 VNĐ</span></p>
+                        <a href="#"><img class="muaVP" src="./Image/Chonmua.png"></a>
+                    </div>
+                    <div class="VP">
+                        <br>
+                        <a href="ChiTietSanPham.html"><img class="hinhVP" src="./Image/Images/Van Phong/MP7503.png"></a>
+                        <p class="tenmayVP"><a href="ChiTietSanPham.html">RICOH AFICIO MP 7503SP</a></p>
+                        <p class="TDVP">Tốc độ <span class="NVP">50 trang/phút</span> | Nặng <span class="NVP">200 kg</span></p>
+                        <p><span class="giaVP">62,000,000 VNĐ</span></p>
+                        <a href="ChiTietSanPham.html"><img class="muaVP" src="./Image/Chonmua.png"></a>
+                    </div>
+                    <div class="VP">
+                        <br>
+                        <a href="#"><img class="hinhVP" src="./Image/Images/Thue May/9001-removeb.png"></a>
+                        <p class="tenmayVP"><a href="#">RICOH AFICIO MP 9001</a></p>
+                        <p class="TDVP">Tốc độ <span class="NVP">90 trang/phút</span> | Nặng <span class="NVP">217 kg</span></p>
+                        <p><span class="giaVP">41,200,000 VNĐ</span></p>
+                        <a href="#"><img class="muaVP" src="./Image/Chonmua.png"></a>
+                    </div>
+                    <div class="VP">
+                        <br>
+                        <a href="#"><img class="hinhVP" src="./Image/Images/Thue May/5002-removebg.png"></a>
+                        <p class="tenmayVP"><a href="#">RICOH AFICIO MP 5002</a></p>
+                        <p class="TDVP">Tốc độ <span class="NVP">50 trang/phút</span> | Nặng <span class="NVP">97 kg</span></p>
+                        <p><span class="giaVP">25,000,000 VNĐ</span></p>
+                        <a href="#"><img class="muaVP" src="./Image/Chonmua.png"></a>
+                    </div>
+                    <div class="VP">
+                        <br>
+                        <a href="#"><img class="hinhVP" src="./Image/Images/Thue May/4001-removebg.png"></a>
+                        <p class="tenmayVP"><a href="#">RICOH AFICIO MP 4001</a></p>
+                        <p class="TDVP">Tốc độ <span class="NVP">40 trang/phút</span> | Nặng <span class="NVP">85 kg</span></p>
+                        <p><span class="giaVP">20,000,000 VNĐ</span></p>
+                        <a href="#"><img class="muaVP" src="./Image/Chonmua.png"></a>
+                    </div>
+                    <div class="VP">
+                        <br>
+                        <a href="#"><img class="hinhVP" src="./Image/Images/Van Phong/MP2554.png"></a>
+                        <p class="tenmayVP"><a href="#">RICOH AFICIO MP 2554</a></p>
+                        <p class="TDVP">Tốc độ <span class="NVP">25 trang/phút</span> | Nặng <span class="NVP">68,5 kg</span></p>
+                        <p><span class="giaVP">15,000,000 VNĐ</span></p>
+                        <a href="#"><img class="muaVP" src="./Image/Chonmua.png"></a>
+                    </div>
+                </aside>
+                <p id="chinh">Máy Photocopy Cho Dịch Vụ</p>
+                <aside id="MPChoDichVu">
+                    <div class="DV">
+                        <br>
+                        <a href="ChiTietSanPham.html"><img class="hinhDV" src="./Image/Images/Van Phong/e856.png"></a>
+                        <p class="tenmayDV"><a href="#">TOSHIBA E-STUDIO 856</a></p>
+                        <p class="TDDV">Tốc độ <span class="NDV">85 trang/phút</span> | Nặng <span class="NDV">203 kg</span></p>
+                        <p><span class="giaDV">24,000,000 VNĐ</span></p>
+                        <a href="ChiTietSanPham.html"><img class="muaDV" src="./Image/Chonmua.png"></a>
+                    </div>
+                    <div class="DV">
+                        <br>
+                        <a href="#"><img class="hinhDV" src="./Image/Images/Dich Vu/MP9002.png"></a>
+                        <p class="tenmayDV"><a href="#">RICOH AFICIO MP 9002</a></p>
+                        <p class="TDDV">Tốc độ <span class="NDV">90 trang/phút</span> | Nặng <span class="NDV">214 kg</span></p>
+                        <p><span class="giaDV">80,000,000 VNĐ</span></p>
+                        <a href="#"><img class="muaDV" src="./Image/Chonmua.png"></a>
+                    </div>
+                    <div class="DV">
+                        <br>
+                        <a href="#"><img class="hinhDV" src="./Image/Images/Dich Vu/MP8000.png"></a>
+                        <p class="tenmayDV"><a href="#">RICOH AFICIO MP 8000</a></p>
+                        <p class="TDDV">Tốc độ <span class="NDV">80 trang/phút</span> | Nặng <span class="NDV">206 kg</span></p>
+                        <p><span class="giaDV">38,000,000 VNĐ</span></p>
+                        <a href="#"><img class="muaDV" src="./Image/Chonmua.png"></a>
+                    </div>
+                    <div class="DV">
+                        <br>
+                        <a href="#"><img class="hinhDV" src="./Image/Images/Thue May/7501-removebg.png"></a>
+                        <p class="tenmayDV"><a href="#">RICOH AFICIO MPC 7501</a></p>
+                        <p class="TDDV">Tốc độ <span class="NDV">80 trang/phút</span> | Nặng <span class="NDV">217 kg</span></p>
+                        <p><span class="giaDV">24,000,000 VNĐ</span></p>
+                        <a href="#"><img class="muaDV" src="./Image/Chonmua.png"></a>
+                    </div>
+                    <div class="DV">
+                        <br>
+                        <a href="#"><img class="hinhDV" src="./Image/Images/Dich Vu/MP7001.png"></a>
+                        <p class="tenmayDV"><a href="#">RICOH AFICIO MP 7001</a></p>
+                        <p class="TDDV">Tốc độ <span class="NDV">70 trang/phút</span> | Nặng <span class="NDV">217 kg</span></p>
+                        <p><span class="giaDV">44,000,000 VNĐ</span></p>
+                        <a href="#"><img class="muaDV" src="./Image/Chonmua.png"></a>
+                    </div>
+                    <div class="DV">
+                        <br>
+                        <a href="#"><img class="hinhDV" src="./Image/Images/Dich Vu/MP7000.png"></a>
+                        <p class="tenmayDV"><a href="#">RICOH AFICIO MP 7000</a></p>
+                        <p class="TDDV">Tốc độ <span class="NDV">70 trang/phút</span> | Nặng <span class="NDV">206 kg</span></p>
+                        <p><span class="giaDV">2439,000,000 VNĐ</span></p>
+                        <a href="#"><img class="muaDV" src="./Image/Chonmua.png"></a>
+                    </div>
+                    <div class="DV">
+                        <br>
+                        <a href="#"><img class="hinhDV" src="./Image/Images/Dich Vu/MP6500.png"></a>
+                        <p class="tenmayDV"><a href="#">RICOH AFICIO MP 6500</a></p>
+                        <p class="TDDV">Tốc độ <span class="NDV">65 trang/phút</span> | Nặng <span class="NDV">206 kg</span></p>
+                        <p><span class="giaDV">37,000,000 VNĐ</span></p>
+                        <a href="#"><img class="muaDV" src="./Image/Chonmua.png"></a>
+                    </div>
+                    <div class="DV">
+                        <br>
+                        <a href="#"><img class="hinhDV" src="./Image/Images/Dich Vu/MP6001.png"></a>
+                        <p class="tenmayDV"><a href="#">RICOH AFICIO MP 6001</a></p>
+                        <p class="TDDV">Tốc độ <span class="NDV">60 trang/phút</span> | Nặng <span class="NDV">217 kg</span></p>
+                        <p><span class="giaDV">44,000,000 VNĐ</span></p>
+                        <a href="#"><img class="muaDV" src="./Image/Chonmua.png"></a>
+                    </div>
+                </aside>
+                <p id="chinh">Máy Photocopy Mini</p>
+                <aside id="MPMini">
+                    <div class="MPM">
+                        <br>
+                        <a href="#"><img class="hinhMPM" src="./Image/Images/Mini/LBP2900.jpg"></a>
+                        <p class="tenmayMPM"><a href="#">CANON LBP2900 </a></p>
+                        <p class="TDMPM">Tốc độ <span class="NMPM">12 trang/phút</span> | Nặng <span class="NMPM">5,7 kg</span></p>
+                        <p><span class="giaMPM">3,390,000 VNĐ</span></p>
+                        <a href="#"><img class="muaMPM" src="./Image/Chonmua.png"></a>
+                    </div>
+                    <div class="MPM">
+                        <br>
+                        <a href="#"><img class="hinhMPM" src="./Image/Images/Mini/LBP6230DN.png"></a>
+                        <p class="tenmayMPM"><a href="#">CANON LBP6230DN</a></p>
+                        <p class="TDMPM">Tốc độ <span class="NMPM">25 trang/phút</span> | Nặng <span class="NMPM">7 kg</span></p>
+                        <p><span class="giaMPM">3,900,000 VNĐ</span></p>
+                        <a href="#"><img class="muaMPM" src="./Image/Chonmua.png"></a>
+                    </div>
+                    <div class="MPM">
+                        <br>
+                        <a href="#"><img class="hinhMPM" src="./Image/Images/Thue May/301-removebg.png"></a>
+                        <p class="tenmayMPM"><a href="#">RICHCOH AFICIO MP 301 </a></p>
+                        <p class="TDMPM">Tốc độ <span class="NMPM">30 trang/phút</span> | Nặng <span class="NMPM">26 kg</span></p>
+                        <p><span class="giaMPM">8,000,000 VNĐ</span></p>
+                        <a href="#"><img class="muaMPM" src="./Image/Chonmua.png"></a>
+                    </div>
+                    <div class="MPM">
+                        <br>
+                        <a href="#"><img class="hinhMPM" src="./Image/Images/Mini/mp402spf.jpg"></a>
+                        <p class="tenmayMPM"><a href="#">RICHCOH AFICIO MP 402SPF</a></p>
+                        <p class="TDMPM">Tốc độ <span class="NMPM">42 trang/phút</span> | Nặng <span class="NMPM">26 kg</span></p>
+                        <p><span class="giaMPM">10,000,000 VNĐ</span></p>
+                        <a href="#"><img class="muaMPM" src="./Image/Chonmua.png"></a>
+                    </div>
+
+                </aside>
+                <aside id="cuoiTT">
+                    <div class="NOI">
+                        <ul>
+                            <p>MỚI NHẤT</p>
+                            <li>
+                                <a href="#"><img class="chinhlai" src="./Image/Images/Van Phong/MP2554.png"><span class="hinhTT">Ricoh Aficio MP 2554&emsp;</span></a>
+                                <span class="tienTT">15,000,000đ</span>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="#"><img class="chinhlai" src="./Image/Images/Van Phong/e4055sp.png"><span class="hinhTT">Ricoh Aficio MP 4055SP</span></a>
+                                <span class="tienTT">125,000,00đ</span>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="#"><img class="chinhlai" src="./Image/Images/Van Phong/e2518.png"><span class="hinhTT">Toshiba e-studio 2518A&ensp;</span></a>
+                                <span class="tienTT">55,500,000đ</span>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="#"><img class="chinhlai" src="./Image/Images/Van Phong/3018a.png"><span class="hinhTT">Toshiba e-studio 3018A&ensp;</span></a>
+                                <span class="tienTT">64,500,000đ</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="NOI">
+                        <ul>
+                            <p>BÁN CHẠY</p>
+                            <li>
+                                <a href="#"><img class="chinhlai" src="./Image/Images/Mini/LBP6230DN.png"><span class="hinhTT">Canon LBP6230DN&emsp;&emsp;</span></a>
+                                <span class="tienTT">3,900,000đ</span>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="#"><img class="chinhlai" src="./Image/Images/Thue May/3500-removebg.png"><span class="hinhTT">Ricoh Aficio MP 3500&emsp;</span></a>
+                                <span class="tienTT">12,000,000đ</span>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="#"><img class="chinhlai" src="./Image/Images/Van Phong/e856.png"><span class="hinhTT">Toshiba e-studio 856&emsp;&ensp;</span></a>
+                                <span class="tienTT">26,000,000đ</span>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="ChiTietSanPham.html"><img class="chinhlai" src="./Image/Images/Van Phong/MP7503.png"><span class="hinhTT">Ricoh Aficio MP 7503SP</span></a>
+                                <span class="tienTT">60,000,000đ</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="NOI">
+                        <ul>
+                            <p>ĐÁNH GIÁ TỐT</p>
+                            <li>
+                                <a href="#"><img class="chinhlai" src="./Image/Images/Van Phong/e350.jpg"><span class="hinhTT">Toshiba e-studio 305&emsp;&ensp;&nbsp;</span></a>
+                                <span class="tienTT">8,000,000đ</span>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="#"><img class="chinhlai" src="./Image/Images/Thue May/301-removebg.png"><span class="hinhTT">Ricoh Aficio MP 301&emsp;&ensp;</span></a>
+                                <span class="tienTT">8,000,000đ</span>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="#"><img class="chinhlai" src="./Image/Images/Van Phong/e856.png"><span class="hinhTT">Toshiba e-studio 856&emsp;&ensp;</span></a>
+                                <span class="tienTT">26,000,000đ</span>
+                            </li>
+                            <hr>
+                            <li>
+                                <a href="#"><img class="chinhlai" src="./Image/Images/Thue May/3500-removebg.png"><span class="hinhTT">Ricoh Aficio MP 6001&emsp;</span></a>
+                                <span class="tienTT">44,000,000đ</span>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+            </section>
+        </article>
+    </div>
+    <footer>
+        <div id="leftCT">
+            <p>Công ty Cổ phần Thiết bị văn phòng <b>TECHNO</b></p>
+            <p>Địa chỉ: Ấp 5, Hưng Hòa, Bàu Bàng, Bình Dương </p>
+            <p>☎ Hotline: <a href="tel:0389 842 453">0389 842 453</a></p>
+            <p>✉ Email: <a href="mailto:techno@gmail.com.vn">techno@gmail.com.vn</a></p>
+            <p>Website: <a href="TrangChu.html">http://techno.vn</a></p>
+        </div>
+        <div id="centerCT">
+            <p>DỊCH VỤ</p>
+            <ul>
+                <li><a href="TrangChu.html">Bán máy Photocopy</a></li>
+                <li><a href="ThueMay.html">Cho thuê máy Photocopy</a></li>
+            </ul>
+        </div>
+        <div id="rightCT">
+            <p>DANH MỤC</p>
+            <ul>
+                <li><a href="VanPhong.html">Máy Photocopy Văn Phòng</a></li>
+                <li><a href="DichVu.html">Máy Photocopy Dịch Vụ</a></li>
+                <li><a href="Mini.html">Máy Photocopy Mini</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script>
+    //khai báo biến slideIndex đại diện cho slide hiện tại
+    var slideIndex;
+    // KHai bào hàm hiển thị slide
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+
+        slides[slideIndex].style.display = "block";
+        dots[slideIndex].className += " active";
+        //chuyển đến slide tiếp theo
+        slideIndex++;
+        //nếu đang ở slide cuối cùng thì chuyển về slide đầu
+        if (slideIndex > slides.length - 1) {
+            slideIndex = 0
+        }
+        //tự động chuyển đổi slide sau 10s
+        setTimeout(showSlides, 5000);
+    }
+    //mặc định hiển thị slide đầu tiên 
+    showSlides(slideIndex = 0);
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+</script>
+
+</html>
